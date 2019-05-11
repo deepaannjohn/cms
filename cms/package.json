@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "test-init": "./node_modules/jasmine/bin/jasmine.js init",
+    "test": "./node_modules/jasmine/bin/jasmine.js",
     "start": "node ./bin/www"
   },
   "dependencies": {
@@ -12,7 +14,9 @@
     "elasticsearch": "^15.4.1",
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
+    "jasmine": "^3.4.0",
     "kafka-node": "^4.1.1",
-    "morgan": "~1.9.0"
+    "morgan": "~1.9.0",
+    "request": "^2.88.0"
   }
 }
