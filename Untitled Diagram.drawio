@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-18T06:36:39.947Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="ZKz6aLZv57M-0-gkIPoq" version="15.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-18T06:36:55.085Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="FyWCjEBJ2lOOXpOBa_k6" version="15.5.4" type="github">
   <diagram id="jyJYbjObPVyAfR9zch3Q" name="Page-1">
-    <mxGraphModel dx="2264" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2264" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,9 +47,6 @@
         </mxCell>
         <mxCell id="-wO7Nv5HzLpEiu3-Yih5-19" value="&lt;span style=&quot;background-color: rgb(255 , 0 , 0)&quot;&gt;1. Need confirmation whether ucv-ext-focused-build is being used by Ericsson&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="580" y="390" width="360" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-wO7Nv5HzLpEiu3-Yih5-21" value="Setup:&lt;br&gt;ucv-ext-focused-build and ucv-ext-octane set up in Accelerate&lt;br&gt;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="530" width="580" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
