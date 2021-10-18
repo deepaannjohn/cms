@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-18T06:12:00.371Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="AJ42Mi72ts1LOUbI09MJ" version="15.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-18T06:32:58.264Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="jMfhfsfIB-JAI5CAeZLU" version="15.5.4" type="github">
   <diagram id="jyJYbjObPVyAfR9zch3Q" name="Page-1">
     <mxGraphModel dx="2264" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -9,10 +9,13 @@
             <mxPoint x="180" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-wO7Nv5HzLpEiu3-Yih5-1" value="Octane Plugin - to be updated to handle end points" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-wO7Nv5HzLpEiu3-Yih5-1" value="Octane Plugin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-wO7Nv5HzLpEiu3-Yih5-2" value="SAP Plugin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-wO7Nv5HzLpEiu3-Yih5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-wO7Nv5HzLpEiu3-Yih5-2" target="-wO7Nv5HzLpEiu3-Yih5-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-wO7Nv5HzLpEiu3-Yih5-2" value="Existing SAP Plugin - ucv-ext-focused-build pulls work items from Focused Build" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-wO7Nv5HzLpEiu3-Yih5-3" value="Accelerate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -24,8 +27,29 @@
         <mxCell id="-wO7Nv5HzLpEiu3-Yih5-5" value="Octane instance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-wO7Nv5HzLpEiu3-Yih5-11" value="Endpoints to make updates in Octane&amp;nbsp;&lt;br&gt;1. Update Charm id&lt;br&gt;2. Update status change" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="205" width="210" height="30" as="geometry" />
+        <mxCell id="-wO7Nv5HzLpEiu3-Yih5-11" value="&lt;span style=&quot;background-color: rgb(0 , 255 , 0)&quot;&gt;Octane plugin to be updated as&amp;nbsp; endpoint plugin as well. The endpoint when invoked will make updates in Octane&amp;nbsp;&lt;br&gt;1. Update Charm id&lt;br&gt;2. Update status change&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="205" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-wO7Nv5HzLpEiu3-Yih5-12" value="&lt;span style=&quot;background-color: rgb(51 , 255 , 51)&quot;&gt;The endpoints exposed by Octane plugin will be invoked from SAP plugin. The SAP system will invoke the SAP plugins end points when 1. Charm id is created 2. On status change&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="140" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-wO7Nv5HzLpEiu3-Yih5-13" value="&lt;span style=&quot;background-color: rgb(0 , 204 , 0)&quot;&gt;Update this plugin with the node service code basically merge ucv-ext-fb and sap-jira-poc&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="150" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-wO7Nv5HzLpEiu3-Yih5-14" value="SAP system" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-wO7Nv5HzLpEiu3-Yih5-17" value="&lt;span style=&quot;background-color: rgb(0 , 204 , 0)&quot;&gt;Octane plugin to call the SAP plugin end point&amp;nbsp; for new WIs&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="250" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-wO7Nv5HzLpEiu3-Yih5-18" value="&lt;span style=&quot;background-color: rgb(0 , 255 , 0)&quot;&gt;SAP plugin to have an endpoint which when invoked will create charm id in SAP&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="240" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-wO7Nv5HzLpEiu3-Yih5-19" value="&lt;span style=&quot;background-color: rgb(255 , 0 , 0)&quot;&gt;1. Need confirmation whether ucv-ext-focused-build is being used by Ericsson&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="390" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-wO7Nv5HzLpEiu3-Yih5-21" value="Setup:&lt;br&gt;ucv-ext-focused-build and ucv-ext-octane set up in Accelerate&lt;br&gt;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="530" width="580" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
